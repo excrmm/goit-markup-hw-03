@@ -527,6 +527,21 @@ margin-right: 50px;
     flex-wrap: wrap;
 }
 
+.cases-item{
+    
+   
+  
+    
+    margin-left: calc(-1 * 20px);
+    margin-top: calc(-1 * 20px);
+}
+
+.cases-item > .cases-list{
+    flex-basis: calc(100% / 3 - 20px);
+
+  margin-top: 20px;
+}
+
 .cases-div{
    
     background: var(--btn-ftr-color);
